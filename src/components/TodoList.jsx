@@ -14,7 +14,7 @@ const TodoList = ({
     <div className="todo-list-container">
       <ul className="todo-list">
         {todos.length === 0 ? (
-          <p>Inga uppgifter ännu!</p>
+          <p>No tasks yet!</p>
         ) : (
           todos.map((todo) => (
             <TodoItem
@@ -28,16 +28,16 @@ const TodoList = ({
         )}
       </ul>
       {allCompleted && (
-        <p className="completed-message">🎉 Alla uppgifter är klara!</p>
+        <p className="completed-message">🎉 All tasks are done!</p>
       )}
       {todos.length > 0 && (
         <button
           className="clear-button"
           onClick={clearTodos}
           disabled={todos.length === 0}
-          aria-label="Rensa alla uppgifter"
+          aria-label="Clear all tasks!"
         >
-          Rensa Alla
+          Clear all
         </button>
       )}
     </div>

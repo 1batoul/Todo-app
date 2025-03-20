@@ -30,7 +30,7 @@ const TodoPage = () => {
 
   return (
     <div className="todo-container">
-      <h1>Mina Todos</h1>
+      <h1>My Todos</h1>
       <TodoForm addTodo={addTodo} />
 
       <TodoList
@@ -40,7 +40,7 @@ const TodoPage = () => {
       />
 
       {todos.length > 0 && todos.every((todo) => todo.completed) && (
-        <p className="completed-message show">Alla uppgifter är klara! 🎉</p>
+        <p className="completed-message show">All tasks are done! 🎉</p>
       )}
     </div>
   );

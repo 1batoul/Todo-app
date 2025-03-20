@@ -1,14 +1,13 @@
 const AboutPage = () => {
   return (
     <div className="about-container">
-      <h1>Om Todo-appen</h1>
+      <h1>About the Todo App</h1>
       <p className="about-text">
-        Denna applikation låter dig hantera dina dagliga uppgifter på ett enkelt
-        och smidigt sätt.
+        This application allows you to manage your daily tasks in a simple and
+        efficient way.
       </p>
       <p className="about-text">
-        Lägg till, markera som klar och rensa uppgifter, allt sparas
-        automatiskt!
+        Add, mark as done, and clear tasks, everything is saved automatically!
       </p>
     </div>
   );

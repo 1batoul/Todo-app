@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ toggleTheme, theme }) => {
   const nextTheme =
-    theme === "dark" ? "🌞 Ljus" : theme === "light" ? "🌸 Rosa" : "🌙 Mörk";
+    theme === "dark" ? "🌞 Light" : theme === "light" ? "🌸 PinK" : "🌙 Dark";
 
   return (
     <nav className="navbar">
@@ -14,7 +14,7 @@ const Navbar = ({ toggleTheme, theme }) => {
         </li>
         <li className="navbar-item">
           <Link to="/about" className="navbar-link">
-            Om
+            About
           </Link>
         </li>
       </ul>

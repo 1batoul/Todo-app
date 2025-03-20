@@ -15,12 +15,12 @@ const TodoForm = ({ addTodo }) => {
     <form onSubmit={handleSubmit} className="todo-form">
       <input
         type="text"
-        placeholder="Lägg till en uppgift..."
+        placeholder="Add task..."
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit" aria-label="Lägg till en ny uppgift">
-        Lägg till
+      <button type="submit" aria-label="Add task">
+        Add
       </button>
     </form>
   );
