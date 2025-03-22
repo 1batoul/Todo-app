@@ -237,6 +237,7 @@ body.pink .todo-item {
 
 .completed-message.show {
   display: block;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .about-container {

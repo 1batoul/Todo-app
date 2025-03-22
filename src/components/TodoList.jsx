@@ -28,7 +28,7 @@ const TodoList = ({
         )}
       </ul>
       {allCompleted && (
-        <p className="completed-message">🎉 All tasks are done!</p>
+        <p className="completed-message show">🎉 All tasks are done!</p>
       )}
       {todos.length > 0 && (
         <button

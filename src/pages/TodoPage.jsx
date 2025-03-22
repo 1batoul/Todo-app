@@ -38,10 +38,6 @@ const TodoPage = () => {
         toggleComplete={toggleComplete}
         clearTodos={clearTodos}
       />
-
-      {todos.length > 0 && todos.every((todo) => todo.completed) && (
-        <p className="completed-message show">All tasks are done! 🎉</p>
-      )}
     </div>
   );
 };
