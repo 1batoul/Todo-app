@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ toggleTheme, theme }) => {
   const nextTheme =
-    theme === "dark" ? "🌞 Light" : theme === "light" ? "🌸 PinK" : "🌙 Dark";
+    theme === "dark" ? "🌞 Light" : theme === "light" ? "🌸 Pink" : "🌙 Dark";
 
   return (
     <nav className="navbar">
